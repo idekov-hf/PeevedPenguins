@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5B121030197484FA004C1E1D /* PeevedPenguinsActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B12102F197484FA004C1E1D /* PeevedPenguinsActivity.m */; };
 		5B121038197487F2004C1E1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B737893E1807617C0076A88C /* AppDelegate.m */; };
+		5D8D8D761B41928700792505 /* WaitingPenguin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8D8D751B41928700792505 /* WaitingPenguin.swift */; };
 		5DB3DDDC1B3D93E600CE97D0 /* Penguin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB3DDDB1B3D93E600CE97D0 /* Penguin.swift */; };
 		5DB3DDE21B3D93EF00CE97D0 /* Seal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB3DDE11B3D93EF00CE97D0 /* Seal.swift */; };
 		5DB3DDE61B3DA6B100CE97D0 /* Gameplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB3DDE51B3DA6B100CE97D0 /* Gameplay.swift */; };
@@ -161,6 +162,7 @@
 		5B121033197485FE004C1E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Platforms/Android/Info.plist; sourceTree = "<group>"; };
 		5B121034197485FE004C1E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Platforms/iOS/Info.plist; sourceTree = "<group>"; };
 		5BA4619E1974C88900785744 /* AndroidManifest.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = AndroidManifest.xml; path = Platforms/Android/AndroidManifest.xml; sourceTree = "<group>"; };
+		5D8D8D751B41928700792505 /* WaitingPenguin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingPenguin.swift; sourceTree = "<group>"; };
 		5DB3DDDB1B3D93E600CE97D0 /* Penguin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Penguin.swift; sourceTree = "<group>"; };
 		5DB3DDE11B3D93EF00CE97D0 /* Seal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seal.swift; sourceTree = "<group>"; };
 		5DB3DDE51B3DA6B100CE97D0 /* Gameplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gameplay.swift; sourceTree = "<group>"; };
@@ -443,6 +445,7 @@
 				7A40362019DDEF0D007B6E8F /* Platforms */,
 				7A046D7519E84C36004C4763 /* MainScene.swift */,
 				5DB3DDE51B3DA6B100CE97D0 /* Gameplay.swift */,
+				5D8D8D751B41928700792505 /* WaitingPenguin.swift */,
 				5DB3DDDB1B3D93E600CE97D0 /* Penguin.swift */,
 				5DB3DDE11B3D93EF00CE97D0 /* Seal.swift */,
 				D352B48019EC608A00829775 /* MetalShaders */,
@@ -618,6 +621,7 @@
 						CreatedOnToolsVersion = 6.0.1;
 					};
 					B77F1B2D17B978D7009739AE = {
+						DevelopmentTeam = 9KQ77A48PB;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 0;
@@ -824,6 +828,7 @@
 				B73789871807631A0076A88C /* main.m in Sources */,
 				5DB3DDE61B3DA6B100CE97D0 /* Gameplay.swift in Sources */,
 				7A046D7919E84ED5004C4763 /* MainScene.swift in Sources */,
+				5D8D8D761B41928700792505 /* WaitingPenguin.swift in Sources */,
 				5DB3DDDC1B3D93E600CE97D0 /* Penguin.swift in Sources */,
 				5DB3DDE21B3D93EF00CE97D0 /* Seal.swift in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,

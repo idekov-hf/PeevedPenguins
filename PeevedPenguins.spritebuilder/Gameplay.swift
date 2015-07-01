@@ -38,7 +38,7 @@ class Gameplay: CCNode, CCPhysicsCollisionDelegate {
         gamePhysicsNode.collisionDelegate = self
         
         // visualize physics bodies and joints
-        //gamePhysicsNode.debugDraw = true
+//        gamePhysicsNode.debugDraw = true
         
     }
     
@@ -54,13 +54,15 @@ class Gameplay: CCNode, CCPhysicsCollisionDelegate {
     
     // called on every touch in this scene
     override func touchBegan(touch: CCTouch!, withEvent event: CCTouchEvent!) {
+        
+        
         let touchLocation = touch.locationInNode(contentNode)
         
         // start catapult dragging when a touch inside of the catapult arm occurs
         if CGRectContainsPoint(catapultArm.boundingBox(), touchLocation) {
             
             // create a penguin from the ccb-file
-            currentPenguin = CCBReader.load("Penguin") as! Penguin?
+            currentPenguin = CCBReader.load("Penguin") as? Penguin
             if let currentPenguin = currentPenguin {
                 // initially position it on the scoop. 34,138 is the position in the node space of the catapultArm
                 let penguinPosition = catapultArm.convertToWorldSpace(CGPoint(x: 34, y: 138))
